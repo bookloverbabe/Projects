@@ -6,6 +6,20 @@
 # output:
 # soundwave that is now within limit
 
-class soundwave
-  
+class Soundwave
+  def initialize
+    sound = []
+  end
+
+  def check(sound)
+  # Check that input is an int between 40 and 1000. go over array using each
+    sound.each do |number| 
+      if number < 40 || number > 1000
+        puts 'outside range'
+      else
+        return sound
+      end
+    end
+  end
+  # modify soundwave
 end
