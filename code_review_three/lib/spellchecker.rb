@@ -9,4 +9,6 @@ ERROR = 'The program does not recognise the input, please input a string'
     end
   end
 
+  
+
 end
