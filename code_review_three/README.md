@@ -4,7 +4,7 @@ for us today.
 Build speller checker
 Does it check single words, or hyphenated words like decision-making? Checks regular dictionary words.
 We use UK english, OED. Only English words
-If user enters non string characters, raise an error message, inut a string
+If user enters non string characters, raise an error message, input a string
 Casing should be maintained in output. Input can be a mixture of upper/lowercase
 If you receive a string and it contains number of odd characters, assume that it is a typo and raise an error message
 If user inputs blank message, raise message, no input provided.
